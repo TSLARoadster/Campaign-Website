@@ -1,5 +1,5 @@
 <div id="landing">
-    <p id="test"><b>S</b>UPPORTING<br>
+    <p><b>S</b>UPPORTING<br>
         <b>T</b>EAMWORK<br>
         <b>A</b>CHIEVEMENT AND<br>
         <b>R</b>ESPONSIBILITY FOR<br>
@@ -14,18 +14,19 @@
             <span class="name"><a href="/evie">Eviem'ree M</a></span>
             <span class="name"><a href="/jimia">Jimia L</a></span>
         </div>
+        <span class="name">Click on the names above!</span>
     </div>
 </div>
 
 <style>
     #landing {
         color: var(--red-200);
-        font-size: 5.5vw;
+        font-size: 4.5vw;
         margin: 3vh 1vw;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-content: flex-start;
+        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -39,15 +40,9 @@
     }
 
     img {
-        margin: 2vw 2vw;
+        margin: 2vw 2vw 0.5vh 2vw;
         width: 35vw;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    }
-
-    @media only screen and (max-width: 800px) {
-        img {
-            width: 60vw;
-        }
     }
 
     .image-container {
@@ -72,5 +67,19 @@
 
     .name a {
         color: var(--blue-500)
+    }
+
+    @media only screen and (max-width: 800px) {
+        img {
+            width: 80%;
+        }
+
+        #landing p {
+            font-size: 5vh;
+        }
+
+        .name {
+            font-size: 2vh;
+        }
     }
 </style>

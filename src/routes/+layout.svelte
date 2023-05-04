@@ -106,4 +106,22 @@
         background-color: var(--blue-500);
         color: #ffffff;
     }
+
+    @media only screen and (max-width: 800px) {
+        .nav-container {
+            height: 5vh;
+            padding: 0.5em 1em;
+        }
+
+        .lesser-button {
+            display: none;
+        }
+
+        .feedback-button {
+            width: 100%;
+            text-align: center;
+            font-size: 1.5vh;
+        }
+    }
+
 </style>
