@@ -5,13 +5,29 @@
     function scrollTo(node, options) {
         const handleScroll = (event) => {
             event.preventDefault();
-            const target = document.querySelector(event.currentTarget.getAttribute("href"));
-            const navbarHeight = navbar.offsetHeight + 20;
+            const targetId = event.currentTarget.getAttribute("href");
+            const currentLocation = window.location.pathname;
 
-            if (target) {
-                // Offset the scroll position by the navbar height
-                const targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarHeight;
-                window.scrollTo({ top: targetPosition, behavior: "smooth", ...options });
+            const performScroll = () => {
+                const target = document.querySelector(targetId);
+                const navbarHeight = navbar.offsetHeight + 20;
+
+                if (target) {
+                    // Offset the scroll position by the navbar height
+                    const targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarHeight;
+                    window.scrollTo({ top: targetPosition, behavior: "smooth", ...options });
+                }
+            };
+
+            // Redirect to root page if not already there and perform scrolling
+            if (currentLocation !== "/") {
+                window.location.href = "/";
+                // Wait for the root page to load before scrolling
+                window.addEventListener("DOMContentLoaded", () => {
+                    setTimeout(performScroll, 100);
+                });
+            } else {
+                performScroll();
             }
         };
 
@@ -23,8 +39,6 @@
         };
     }
 </script>
-
-
 
 <nav bind:this={navbar}>
     <div class="nav-container">
