@@ -79,7 +79,7 @@
         }
 
         .name {
-            font-size: 2vh;
+            font-size: 5vw;
         }
     }
 </style>

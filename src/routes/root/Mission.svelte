@@ -11,7 +11,7 @@
 
 <style>
     #mission {
-        margin: 15vh 1vw;
+        margin: 15vh 1vw 0 1vw;
         display: flex;
         justify-items: flex-start;
         align-items: center;
@@ -63,11 +63,11 @@
 
         .heading, .subheading {
             text-align: center;
-            font-size: 5vh;
+            font-size: 13vw;
         }
 
         .body {
-            font-size: 3vh;
+            font-size: 5vw;
             text-align: center;
         }
 

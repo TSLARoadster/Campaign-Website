@@ -91,7 +91,8 @@
     .option {
         color: var(--gray-200);
         font-family: "Montserrat Thin",sans-serif;
-        font-size: clamp(1pt, 2vw, 16pt);
+        font-size: 2vw;
+        height: 100%;
     }
 
     .lesser-button {
@@ -110,7 +111,7 @@
     .feedback-button {
         border: 0.2em solid var(--blue-500);
         border-radius: 50px;
-        padding: 1em 1em;
+        padding: 0.5em 1em;
         text-align: center;
         transition: background-color 0.3s, color 0.2s;
     }
@@ -128,10 +129,10 @@
         }
 
         .nav-container {
-            height: 5vh;
+            height: auto;
             align-items: center;
             justify-content: space-between;
-            padding: 0.5em 1em;
+            padding: 1em 1em;
         }
 
         .lesser-button {
@@ -139,12 +140,27 @@
         }
 
         .options {
-            width: 50%;
+            width: 40%;
         }
+
         .feedback-button {
             width: 100%;
             text-align: center;
-            font-size: clamp(8pt, 1.5vw, 1.5vw);
+            height: 1vh;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+        }
+    }
+
+    @media only screen and (max-width: 200px) {
+        .options {
+            display: none;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 100%;
         }
     }
 

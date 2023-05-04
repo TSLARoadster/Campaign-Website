@@ -24,7 +24,7 @@
 
 <style>
     .about-feedback-container {
-        margin: 15vh 1vw;
+        margin: 15vh 1vw 0 1vw;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -84,12 +84,18 @@
         }
 
         .header h1 {
-            font-size: 5vh;
+            font-size: 13vw;
         }
 
         .body {
-            font-size: 3vh;
+            font-size: 5vw;
             text-align: center;
+        }
+
+        .form {
+            width: 50%;
+            font-size: 5vw;
+            margin: 1vh;
         }
     }
 </style>
