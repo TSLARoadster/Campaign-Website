@@ -1,10 +1,38 @@
-<nav>
+<script lang="ts">
+    let navbar;
+
+    // scrollTo action
+    function scrollTo(node, options) {
+        const handleScroll = (event) => {
+            event.preventDefault();
+            const target = document.querySelector(event.currentTarget.getAttribute("href"));
+            const navbarHeight = navbar.offsetHeight + 20;
+
+            if (target) {
+                // Offset the scroll position by the navbar height
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarHeight;
+                window.scrollTo({ top: targetPosition, behavior: "smooth", ...options });
+            }
+        };
+
+        node.addEventListener("click", handleScroll);
+        return {
+            destroy() {
+                node.removeEventListener("click", handleScroll);
+            },
+        };
+    }
+</script>
+
+
+
+<nav bind:this={navbar}>
     <div class="nav-container">
-        <a class="title" href="/"><b>VOTE FOR <span>STARS</span></b></a>
+        <a class="title" href="#top" use:scrollTo={{ navbar }}><b>VOTE FOR <span>STARS</span></b></a>
         <div class="options">
-            <a class="lesser-button option" href="#mission">Our Mission</a>
-            <a class="lesser-button option" href="#about">About Us</a>
-            <a class="feedback-button option" href="#feedback">Send Feedback</a>
+            <a class="lesser-button option" href="#mission" use:scrollTo={{ navbar }}>Our Mission</a>
+            <a class="lesser-button option" href="#about" use:scrollTo={{ navbar }}>About Us</a>
+            <a class="feedback-button option" href="#feedback" use:scrollTo={{ navbar }}>Send Feedback</a>
         </div>
     </div>
 </nav>

@@ -1,5 +1,5 @@
-<div class="landing">
-    <p><b>S</b>UPPORTING<br>
+<div id="landing">
+    <p id="test"><b>S</b>UPPORTING<br>
         <b>T</b>EAMWORK<br>
         <b>A</b>CHIEVEMENT AND<br>
         <b>R</b>ESPONSIBILITY FOR<br>
@@ -18,7 +18,7 @@
 </div>
 
 <style>
-    .landing {
+    #landing {
         color: var(--red-200);
         font-size: 5.5vw;
         margin: 3vh 1vw;
@@ -33,7 +33,7 @@
         font-weight: bolder;
     }
 
-    .landing p {
+    #landing p {
         margin: 2vw 2vw;
         padding: 0;
     }
