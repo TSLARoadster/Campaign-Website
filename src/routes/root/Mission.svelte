@@ -1,10 +1,10 @@
 <div id="mission">
-    <img class="pep-rally" src="static/images/Pep Rally.png" alt="Pep rally">
+    <img class="pep-rally" src="images/Pep Rally.png" alt="Pep rally">
     <div class="text-container">
         <span class="heading">Our Mission:</span>
         <span class="subheading">S.O.P.H.O.M.O.R.E.S.</span>
         <p class="body">Our goal as your class government is: <b>Striving for Optimal Performance, Harnessing Opportunities, Mastering Objectives, Representing Excellence, and Success</b>. In other words, our goal is to make sure our <b>2023-24</b> school year is the best year we've ever had!</p>
-        <img class="star-graphic" src="static/images/Stars Graphic.png" alt="Stars graphic">
+        <img class="star-graphic" src="images/Stars Graphic.png" alt="Stars graphic">
     </div>
 </div>
 

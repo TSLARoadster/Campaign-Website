@@ -6,7 +6,7 @@
         <b>S</b>UCCESS
     </p>
     <div class="image-container">
-        <img src="static/images/Group Photo.png" alt="Group">
+        <img src="images/Group Photo.png" alt="Group">
         <div class="name-container">
             <span class="name"><a href="/analee">Analee T</a></span>
             <span class="name"><a href="/javion">Javion L</a></span>
