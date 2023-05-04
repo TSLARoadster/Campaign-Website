@@ -129,6 +129,8 @@
 
         .nav-container {
             height: 5vh;
+            align-items: center;
+            justify-content: space-between;
             padding: 0.5em 1em;
         }
 
@@ -136,6 +138,9 @@
             display: none;
         }
 
+        .options {
+            width: 50%;
+        }
         .feedback-button {
             width: 100%;
             text-align: center;
