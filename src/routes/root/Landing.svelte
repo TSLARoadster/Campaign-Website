@@ -75,7 +75,7 @@
         }
 
         #landing p {
-            font-size: 5vh;
+            font-size: 10vw;
         }
 
         .name {
