@@ -13,8 +13,8 @@
     #mission {
         margin: 15vh 1vw;
         display: flex;
-        justify-content: flex-start;
-        align-content: center;
+        justify-items: flex-start;
+        align-items: center;
         flex-wrap: wrap;
         width: auto;
     }
@@ -22,8 +22,6 @@
     .text-container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-content: center;
         width: 40%;
     }
 

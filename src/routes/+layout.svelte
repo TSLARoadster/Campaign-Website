@@ -97,8 +97,7 @@
         border: 0.2em solid var(--blue-500);
         border-radius: 50px;
         padding: 1em 1em;
-        display: flex;
-        align-items: center;
+        text-align: center;
         transition: background-color 0.3s, color 0.2s;
     }
 
