@@ -1,0 +1,32 @@
+:root {
+    --background: #f6f0ee;
+    --gray-100: #d9d9d9;
+    --gray-200: #495867;
+    --blue-100: #d3e7f8;
+    --blue-200: #bdd5ea;
+    --blue-300: #709fb0;
+    --blue-400: #577399;
+    --blue-500: #274d6f;
+    --blue-600: #29415b;
+    --red-100: #fe5f55;
+    --red-200: #fc463b;
+    --red-300: #bc1823;
+}
+
+* {
+    font-family: "Bebas Neue Pro", sans-serif;
+}
+
+html {
+    background-color: var(--background);
+    scroll-behavior: smooth;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    margin: 0 auto;
+}
