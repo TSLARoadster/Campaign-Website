@@ -121,6 +121,12 @@
     }
 
     @media only screen and (max-width: 800px) {
+        .title {
+            font-size: 6vw;
+            width: 100%;
+            color: var(--blue-500)
+        }
+
         .nav-container {
             height: 5vh;
             padding: 0.5em 1em;
@@ -133,7 +139,7 @@
         .feedback-button {
             width: 100%;
             text-align: center;
-            font-size: 1.5vh;
+            font-size: clamp(8pt, 1.5vw, 1.5vw);
         }
     }
 
