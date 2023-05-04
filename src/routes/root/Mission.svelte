@@ -11,7 +11,8 @@
 
 <style>
     #mission {
-        margin: 15vh 1vw 0 1vw;
+        margin: 15vh 4vw 0 4vw;
+        display: -webkit-flex;
         display: flex;
         justify-items: flex-start;
         align-items: center;
@@ -20,6 +21,7 @@
     }
 
     .text-container {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
         width: 40%;

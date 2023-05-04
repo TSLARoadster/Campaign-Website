@@ -71,7 +71,8 @@
     .title {
         font-size: clamp(12pt, 7vw, 60pt);
         width: 100%;
-        color: var(--blue-500)
+        color: var(--blue-500);
+        text-rendering: optimizeLegibility;
     }
 
     .title span {
@@ -124,8 +125,9 @@
     @media only screen and (max-width: 800px) {
         .title {
             font-size: 6vw;
-            width: 100%;
-            color: var(--blue-500)
+            width: auto;
+            color: var(--blue-500);
+            text-align: center;
         }
 
         .nav-container {
@@ -136,20 +138,16 @@
         }
 
         .lesser-button {
-            display: none;
+            text-align: center;
         }
 
         .options {
-            width: 40%;
+            width: 60%;
         }
 
         .feedback-button {
-            width: 100%;
-            text-align: center;
-            height: 1vh;
-            display: inline-block;
-            vertical-align: middle;
-            line-height: normal;
+            font-size: 3vw;
+            padding: 0.5em 1em;
         }
     }
 
@@ -161,6 +159,10 @@
         .title {
             text-align: center;
             font-size: 100%;
+        }
+
+        .nav-container {
+            justify-content: center;
         }
     }
 

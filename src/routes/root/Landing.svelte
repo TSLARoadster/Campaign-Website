@@ -23,29 +23,26 @@
         color: var(--red-200);
         font-size: 4.5vw;
         margin: 3vh 1vw;
+        display: -webkit-flex;
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    b {
-        font-weight: bolder;
-    }
-
     #landing p {
-        margin: 2vw 2vw;
+        margin: 2vw;
         padding: 0;
     }
 
     img {
-        margin: 2vw 2vw 0.5vh 2vw;
+        margin: 1vw;
         width: 35vw;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
 
     .image-container {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -53,6 +50,7 @@
     }
 
     .name-container {
+        display: -webkit-flex;
         display: flex;
         flex-direction: row;
         align-items: center;

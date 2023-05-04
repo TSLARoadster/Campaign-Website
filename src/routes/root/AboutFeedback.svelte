@@ -24,7 +24,8 @@
 
 <style>
     .about-feedback-container {
-        margin: 15vh 1vw 0 1vw;
+        margin: 15vh 4vw 0 4vw;
+        display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -32,6 +33,7 @@
     }
 
     .info-container {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -41,6 +43,7 @@
     }
 
     .header {
+        display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -67,6 +70,7 @@
         margin: 4vh 2vw;
         border: 0.2em solid var(--blue-300);
         padding: 1em 1em;
+        font-size: 2vw;
         width: 90%;
         transition: background-color 0.3s, color 0.2s;
         text-align: center;
@@ -85,6 +89,10 @@
 
         .header h1 {
             font-size: 13vw;
+        }
+
+        .icon {
+            width: 13vw;
         }
 
         .body {
