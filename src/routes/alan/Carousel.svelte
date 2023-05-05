@@ -56,10 +56,11 @@
     button {
         background-color: transparent;
         border: none;
-        font-size: 3vw;
+        font-size: 10vw;
         cursor: pointer;
         padding: 1vw;
         transition: all 0.2s;
+        color: var(--blue-500)
     }
 
     button:hover {
