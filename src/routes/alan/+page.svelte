@@ -42,8 +42,7 @@
                 </li>
             </ul>
             <h3 class="slogan">Shoot for the Stars! Vote the stellar way for Alan A!</h3>
-            <span class="details">MORE DETAILS</span>
-            <div class="arrow"></div>
+            <span class="details">SCROLL FOR MORE DETAILS</span>
         </div>
     </div>
     <Carousel />
@@ -186,13 +185,5 @@
     .details {
         font-size: 2vw;
         color: var(--gray-200);
-    }
-
-    .arrow {
-        border: solid var(--gray-200);
-        border-width: 0 0.5vw 0.5vw 0;
-        display: inline-block;
-        padding: 0.5vw;
-        transform: rotate(45deg);
     }
 </style>
