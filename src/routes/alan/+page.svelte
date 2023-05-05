@@ -23,24 +23,26 @@
                     <span class="username">@ALAN.ALWAKEEL07</span>
                 </div>
             </div>
-            <h2 class="goals-title">MY GOALS:</h2>
-            <ul class="goals-list">
-                <li class="goal">
-                    <img src="images/Checkmark.png" alt="Checkmark">
-                    <span class="goal-title">Win Pep Rallies</span>
-                    <span class="goal-text"> - Better collaboration + communication</span>
-                </li>
-                <li class="goal">
-                    <img src="images/Checkmark.png" alt="Checkmark">
-                    <span class="goal-title">Motivate Success</span>
-                    <span class="goal-text"> - Class website + volunteering</span>
-                </li>
-                <li class="goal">
-                    <img src="images/Checkmark.png" alt="Checkmark">
-                    <span class="goal-title">Have Fun!</span>
-                    <span class="goal-text"> - Sophomore Socials + Legacy Project</span>
-                </li>
-            </ul>
+            <div class="goals">
+                <h2 class="goals-title">MY GOALS:</h2>
+                <ul class="goals-list">
+                    <li class="goal">
+                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <span class="goal-title">Win Pep Rallies</span>
+                        <span class="goal-text"> - Better collaboration + communication</span>
+                    </li>
+                    <li class="goal">
+                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <span class="goal-title">Motivate Success</span>
+                        <span class="goal-text"> - Class website + volunteering</span>
+                    </li>
+                    <li class="goal">
+                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <span class="goal-title">Have Fun!</span>
+                        <span class="goal-text"> - Sophomore Socials + Legacy Project</span>
+                    </li>
+                </ul>
+            </div>
             <h3 class="slogan">Shoot for the Stars! Vote the stellar way for Alan A!</h3>
             <span class="details">SCROLL FOR MORE DETAILS</span>
         </div>
@@ -62,8 +64,8 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-evenly;
-        height: 70vh;
-        margin: 5vh;
+        height: 70%;
+        margin: 0 5vw;
     }
 
     .portrait-container {
@@ -134,10 +136,16 @@
         margin: 0;
     }
 
+    .goals {
+        display: flex;
+        flex-direction: column;
+    }
+
     .goals-title {
         font-size: 5vw;
         color: var(--blue-500);
         margin: 0;
+        text-align: center;
     }
 
     .goals-list {
@@ -185,5 +193,55 @@
     .details {
         font-size: 2vw;
         color: var(--gray-200);
+    }
+
+    @media only screen and (max-width: 800px) {
+        .title {
+            font-size: 7vw;
+        }
+
+        .name {
+            font-size: 10vw;
+        }
+
+        .subtitle {
+            font-size: 4vw;
+        }
+
+        .social img {
+            width: 6vw;
+        }
+
+        .username {
+            font-size: 4vw;
+        }
+
+        .goals {
+            width: 100%;
+        }
+
+        .goals-title {
+            font-size: 8vw;
+        }
+
+        .goal img {
+            width: 7vw;
+        }
+
+        .goal-title {
+            font-size: 5vw;
+        }
+
+        .goal-text {
+            font-size: 2.6vw;
+        }
+
+        .slogan {
+            font-size: 4vw;
+        }
+
+        .details {
+            display: none
+        }
     }
 </style>

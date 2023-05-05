@@ -49,8 +49,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 5vh;
-        height: 100vh;
+        margin: 0 5vw;
+        height: 100%;
     }
 
     button {
@@ -91,5 +91,15 @@
         font-size: 2vw;
         color: var(--red-300);
         text-align: center;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .info-card-title {
+            font-size: 8vw;
+        }
+
+        .info-card-text {
+            font-size: 4vw;
+        }
     }
 </style>
