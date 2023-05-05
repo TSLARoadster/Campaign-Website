@@ -57,7 +57,9 @@
     nav {
         background-color: var(--blue-200);
         position: sticky;
-        top: 0
+        top: 0;
+        display: flex;
+        align-items: center;
     }
 
     .nav-container {
@@ -66,18 +68,17 @@
         justify-content: space-between;
         align-items: center;
         padding: 0.5em 2em;
+        width: 100%;
     }
 
     .title {
         font-size: clamp(12pt, 7vw, 60pt);
         width: 100%;
         color: var(--blue-500);
-        text-rendering: optimizeLegibility;
     }
 
     .title span {
         color: var(--red-200);
-        text-shadow: 0 0.07em var(--blue-500)
     }
 
     .options {
