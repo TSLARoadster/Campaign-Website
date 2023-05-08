@@ -66,11 +66,12 @@
     }
 
     .name {
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: bold;
     }
 
     .name a {
+        font-size: 2vw;
         color: var(--blue-500)
     }
 
