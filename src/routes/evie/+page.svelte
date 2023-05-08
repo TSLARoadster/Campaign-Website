@@ -1,4 +1,4 @@
-<img src="images/Temp Evie.png" alt="Evie" />
+<img src="images/Temp Evie.webp" alt="Evie" />
 
 <style>
     img {

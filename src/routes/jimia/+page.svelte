@@ -1,4 +1,4 @@
-<img src="images/Temp Jimia.png" alt="Jimia" />
+<img src="images/Temp Jimia.webp" alt="Jimia" />
 
 <style>
     img {

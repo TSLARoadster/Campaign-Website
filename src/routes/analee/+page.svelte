@@ -35,7 +35,7 @@
             </ul>
         </div>
     </div>
-    <img src="images/Analee.png" alt="Analee">
+    <img src="images/Analee.webp" alt="Analee">
 </div>
 
 <style>

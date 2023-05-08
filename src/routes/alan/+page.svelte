@@ -5,7 +5,7 @@
 <div class="container">
     <div class="top-container">
         <div class="portrait-container">
-            <img class="portrait" src="images/Alan.png" alt="Alan Alwakeel">
+            <img class="portrait" src="images/Alan.webp" alt="Alan Alwakeel">
         </div>
         <div class="info-container">
             <h2 class="title">CLASS PRESIDENT</h2>
@@ -14,12 +14,12 @@
             <div class="social-container">
                 <a href="https://instagram.com/alan.alwakeel" target="_blank">
                     <div class="social">
-                            <img src="images/Instagram.png" alt="Instagram">
+                            <img src="images/Instagram.webp" alt="Instagram">
                             <span class="username">@ALAN.ALWAKEEL</span>
                     </div>
                 </a>
                 <div class="social">
-                    <img src="images/Snapchat.png" alt="Snapchat">
+                    <img src="images/Snapchat.webp" alt="Snapchat">
                     <span class="username">@ALAN.ALWAKEEL07</span>
                 </div>
             </div>
@@ -27,17 +27,17 @@
                 <h2 class="goals-title">MY GOALS:</h2>
                 <ul class="goals-list">
                     <li class="goal">
-                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <img src="images/Checkmark.webp" alt="Checkmark">
                         <span class="goal-title">Win Pep Rallies</span>
                         <span class="goal-text"> - Better collaboration + communication</span>
                     </li>
                     <li class="goal">
-                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <img src="images/Checkmark.webp" alt="Checkmark">
                         <span class="goal-title">Motivate Success</span>
                         <span class="goal-text"> - Class website + volunteering</span>
                     </li>
                     <li class="goal">
-                        <img src="images/Checkmark.png" alt="Checkmark">
+                        <img src="images/Checkmark.webp" alt="Checkmark">
                         <span class="goal-title">Have Fun!</span>
                         <span class="goal-text"> - Sophomore Socials + Legacy Project</span>
                     </li>

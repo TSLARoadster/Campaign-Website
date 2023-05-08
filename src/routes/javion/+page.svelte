@@ -18,7 +18,7 @@
         <a class="redirect" href="https://instagram.com/javionliu4officer" target="_blank">For more info, check out my campaign on Instagram! @javionliu4officer</a>
     </div>
     <div class="about">
-        <img src="images/Javion.png" alt="Javion Liu" />
+        <img src="images/Javion.webp" alt="Javion Liu" />
         <div class="about-text">
             <h3>A LITTLE ABOUT ME</h3>
             <ul class="about-me-list">

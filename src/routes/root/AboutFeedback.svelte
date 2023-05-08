@@ -2,7 +2,7 @@
     <div id="about" class="info-container">
         <div class="header">
             <h1>ABOUT US</h1>
-            <img class="icon" src="images/About Icon.png" alt="About Icon" />
+            <img class="icon" src="images/About Icon.webp" alt="About Icon" />
         </div>
         <p class="body">
             We are all extremely dedicated Stanton students. Together we participate in a wide variety of Stanton activities, including numerous clubs and sports. We feel that across our wide variety of experiences and connections with a wide variety of people, we are well equipped to represent the class of 2026. We share the goal of wanting to make sophomore year the best yet, and we have many awesome ideas about socials and fun events! Last of all, we want more opportunities for volunteering, academic success, and more DUBS at pep rallies.
@@ -11,7 +11,7 @@
     <div id="feedback" class="info-container">
         <div class="header">
             <h1>FEEDBACK</h1>
-            <img class="icon" src="images/Feedback Icon.png" alt="Feedback Icon" />
+            <img class="icon" src="images/Feedback Icon.webp" alt="Feedback Icon" />
         </div>
         <p class="body">
             We represent <b>YOU</b>! If you have any questions, comments, concerns, or any other feedback, please fill out the below form and we will get back to you as soon as possible!
