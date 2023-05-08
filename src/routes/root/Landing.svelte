@@ -1,4 +1,11 @@
 <div id="landing">
+    <div id="announcement">
+        <span>
+            CHECK OUT THE CAMPAIGN VIDEO:
+            <a href="https://www.instagram.com/reel/Cr8jsuPutuA/" target="_blank">INSTAGRAM</a> |
+            <a href="https://duvalschoolsorg.sharepoint.com/:v:/r/teams/3153_3153_StudentActivitiesOfficeSAO21-22copy230/Shared%20Documents/Campaign%20Central%20-%20SOPHOMORE%20Candidates/ALAN%20A%20PRESIDENT%20CAMPAIGN.mp4?csf=1&web=1&e=RGUacE" target="_blank">ONEDRIVE (DCPS)</a>
+        </span>
+    </div>
     <p><b>S</b>UPPORTING<br>
         <b>T</b>EAMWORK<br>
         <b>A</b>CHIEVEMENT AND<br>
@@ -65,6 +72,24 @@
 
     .name a {
         color: var(--blue-500)
+    }
+
+    #announcement {
+        color: var(--blue-600);
+        font-weight: bold;
+        background-color: var(--gray-100);
+        width: 100%;
+        height: 15vh;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4.7vw;
+    }
+
+    #announcement a {
+        color: var(--red-200);
     }
 
     @media only screen and (max-width: 800px) {
