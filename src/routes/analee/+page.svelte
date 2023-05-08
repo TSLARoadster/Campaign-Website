@@ -114,7 +114,7 @@
     }
 
     img {
-        width: 100%;
+        width: 25vw;
         margin: 5vw;
     }
 
