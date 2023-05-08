@@ -3,7 +3,7 @@
         <span>
             CHECK OUT THE CAMPAIGN VIDEO:
             <a href="https://www.instagram.com/reel/Cr8jsuPutuA/" target="_blank">INSTAGRAM</a> |
-            <a href="https://duvalschoolsorg.sharepoint.com/:v:/r/teams/3153_3153_StudentActivitiesOfficeSAO21-22copy230/Shared%20Documents/Campaign%20Central%20-%20SOPHOMORE%20Candidates/ALAN%20A%20PRESIDENT%20CAMPAIGN.mp4?csf=1&web=1&e=RGUacE" target="_blank">ONEDRIVE (DCPS)</a>
+            <a href="https://duvalschoolsorg.sharepoint.com/:v:/t/3153_3153_StudentActivitiesOfficeSAO21-22copy230/Eeu0eIhfo3ZAn1DMlEhz4JMBPEQ8aNGbQdZgX4xznKWBLg?e=r8zeEv" target="_blank">ONEDRIVE (DCPS)</a>
         </span>
     </div>
     <p><b>S</b>UPPORTING<br>
